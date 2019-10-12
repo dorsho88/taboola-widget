@@ -1,0 +1,82 @@
+.widget-body > body {
+  display:inline; /*ie fix*/
+}
+
+#widget-div {
+  width: 900px;
+}
+  
+.widget-body{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.widget-body * {
+  font-weight: 300;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.box-container{
+  width: 25%;
+  float: left;
+}
+
+.box{ 
+  padding: 15px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;    
+}
+
+.title-container {
+  height: 40px;
+  overflow: hidden;
+  line-height: 1.2em;
+  max-height: 2.4em; 
+}
+
+h5 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 1em;
+}
+
+.img-container {
+  width: 90%;
+  max-width:100%;
+  margin: 5px auto;
+}
+
+.img {
+  border-radius: 3px;
+  padding-top: 100%;
+  height: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.branding{
+  font-size: 0.5em;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .box-container{
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box-container{
+      width: 100%;
+  }
+}
